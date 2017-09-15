@@ -1,0 +1,142 @@
+/* Login- register pages */
+.login-register {
+  width: 100%;
+  background: url(../images/login.jpg) no-repeat center center / cover;
+  height: 100%;
+  position: fixed;
+  background-position-x: -110px;
+  background-position-y: -5px;  
+  overflow: auto !important;
+}
+.login-box {
+  background: #ffffff;
+  width: 470px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.login-box .footer {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+.login-box .social {
+  display: block;
+  margin-bottom: 30px;
+}
+#recoverform {
+  display: none;
+}
+.new-login-register {
+  position: fixed;
+  height: 100%;
+}
+.new-login-register .lg-info-panel {
+  background: url(../../plugins/images/login-register.jpg) no-repeat center center / cover !important;
+  width: 500px;
+  height: 100%;
+  position: fixed;
+}
+.new-login-register .lg-info-panel .inner-panel {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.new-login-register .lg-info-panel .lg-content {
+  margin-top: 50%;
+  text-align: center;
+  padding: 0 50px;
+}
+.new-login-register .lg-info-panel .lg-content h2 {
+  color: #ffffff;
+}
+.new-login-register .lg-info-panel .lg-content p {
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+.new-login-register .new-login-box {
+  margin-left: 50%;
+  margin-top: 10%;
+  width: 400px;
+}
+.new-login-register .new-login-box .new-lg-form {
+  padding-top: 20px;
+}
+.new-login-register .new-login-box .new-lg-form label {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.new-login-register .new-login-box .social {
+  display: block;
+  margin-bottom: 30px;
+}
+
+/*Login page sidebar*/
+.login-sidebar {
+  position: absolute;
+  right: 0px;
+  margin-top: 0px;
+  height: inherit;
+}
+
+.white-box {
+  background: #ffffff;
+  padding: 50px;
+  margin-bottom: 0px;
+}
+.white-box .box-title {
+  margin: 0px 0px 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.db{
+  display: block;
+}
+
+.login-sidebar footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 50px 60px;
+  text-align: center;
+}
+
+.title-box{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  right: 50%;
+  max-width: 700px;
+}
+.dtext{
+  color: white;
+  font-size: 22px;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  background: black;
+  padding: 20px;
+  opacity: .6;
+}
+
+@media (max-width: 767px){
+  .login-box {
+    width: 100%;
+  }
+  .login-sidebar footer {
+    position: relative;
+    background-color: #fff;
+    margin: 0;
+    margin-top: 40px; 
+  }
+}
+
+@media (max-width: 991px){
+  .title-box{
+    display: none;
+  }
+}
